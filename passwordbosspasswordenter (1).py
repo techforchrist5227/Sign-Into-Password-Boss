@@ -6,4 +6,4 @@ app = Application(backend="uia").start(r"c:\Users\BrettRaper\AppData\Local\Passw
 
 passwordEnter = app.PasswordBoss.child_window(auto_id="GlobalPasswordTextBox", control_type="Edit").wrapper_object()
 
-passwordEnter.type_keys("Laursmolomarpippin5227!!{ENTER}")
+passwordEnter.type_keys("Password{ENTER}")
